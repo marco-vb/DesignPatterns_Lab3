@@ -1,4 +1,4 @@
-package org.marco-vb;
+package org.marcovb;
 
 public class Main {
     public static void main(String[] args) {
