@@ -1,6 +1,8 @@
+package StringDrinkTests;
+
 import org.junit.jupiter.api.Test;
-import org.marcovb.StringDrink;
-import org.marcovb.StringReplacer;
+import org.marcovb.stringdrink.StringDrink;
+import org.marcovb.stringdrink.StringReplacer;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

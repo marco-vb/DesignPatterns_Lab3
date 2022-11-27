@@ -1,4 +1,4 @@
-package org.marcovb;
+package org.marcovb.stringdrink;
 
 public interface StringTransformer {
     void execute(StringDrink drink);

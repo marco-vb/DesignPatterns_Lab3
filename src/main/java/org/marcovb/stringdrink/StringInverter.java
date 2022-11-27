@@ -1,4 +1,4 @@
-package org.marcovb;
+package org.marcovb.stringdrink;
 
 public class StringInverter implements StringTransformer {
     @Override

@@ -1,5 +1,7 @@
+package StringDrinkTests;
+
 import org.junit.jupiter.api.Test;
-import org.marcovb.*;
+import org.marcovb.stringdrink.*;
 
 import java.util.ArrayList;
 import java.util.List;
