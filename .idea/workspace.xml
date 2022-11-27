@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="954cb938-f38c-4a8e-82aa-cd2c526775f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringCaseChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringCaseChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringInverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringRecipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringRecipe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringTransformerGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/stringdrink/StringTransformerGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCaseChangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTests/StringCaseChangerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringDrinkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTests/StringDrinkTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringInverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTests/StringInverterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringRecipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTests/StringRecipeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringReplacerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTests/StringReplacerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringTransformerGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringDrinkTests/StringTransformerGroupTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="954cb938-f38c-4a8e-82aa-cd2c526775f0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,6 +185,7 @@
       <workItem from="1669561956696" duration="819000" />
       <workItem from="1669562786142" duration="564000" />
       <workItem from="1669563360404" duration="133000" />
+      <workItem from="1669564052308" duration="219000" />
     </task>
     <servers />
   </component>
