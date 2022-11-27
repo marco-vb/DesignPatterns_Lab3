@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954cb938-f38c-4a8e-82aa-cd2c526775f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringCaseChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/StringCaseChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/StringInverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/StringReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/StringTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/StringTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringRecipeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringRecipeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +50,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.StringRecipeTest">
+  <component name="RunManager" selected="Gradle.StringTransformerGroupTest">
     <configuration name="StringDrinkTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -126,6 +120,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="StringTransformerGroupTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;StringTransformerGroupTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests in 'designp_lab3.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -149,6 +166,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StringTransformerGroupTest" />
         <item itemvalue="Gradle.StringRecipeTest" />
         <item itemvalue="Gradle.Tests in 'designp_lab3.test'" />
         <item itemvalue="Gradle.StringInverterTest" />
@@ -166,7 +184,7 @@
       <updated>1669554801564</updated>
       <workItem from="1669554803197" duration="953000" />
       <workItem from="1669561701033" duration="244000" />
-      <workItem from="1669561956696" duration="88000" />
+      <workItem from="1669561956696" duration="396000" />
     </task>
     <servers />
   </component>
