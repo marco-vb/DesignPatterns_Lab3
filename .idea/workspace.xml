@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="954cb938-f38c-4a8e-82aa-cd2c526775f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/ImpatientStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/OrderingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/SmartStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BarTests/OrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/BarObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/BarObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/HumanClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/HumanClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/StringBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/marcovb/bar/StringBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BarTests/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BarTests/OrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +189,7 @@
       <workItem from="1669562786142" duration="564000" />
       <workItem from="1669563360404" duration="133000" />
       <workItem from="1669564052308" duration="1994000" />
-      <workItem from="1669576195437" duration="1662000" />
+      <workItem from="1669576195437" duration="2462000" />
     </task>
     <servers />
   </component>

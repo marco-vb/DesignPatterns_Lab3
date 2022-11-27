@@ -1,10 +1,7 @@
 package BarTests;
 
 import org.junit.jupiter.api.Test;
-import org.marcovb.bar.HumanClient;
-import org.marcovb.bar.ImpatientStrategy;
-import org.marcovb.bar.SmartStrategy;
-import org.marcovb.bar.StringBar;
+import org.marcovb.bar.*;
 import org.marcovb.stringdrink.*;
 
 import java.util.ArrayList;
@@ -68,6 +65,39 @@ public class OrderTest {
         assertEquals("AbCd-aBcD", drink.getText());
         // Recipe is only ordered here
         stringBar.startHappyHour();
+        assertEquals("dCbX-DcBa", drink.getText());
+    }
+
+    @Test
+    public void ferengiAlreadyOpened() {
+        StringBar stringBar = new StringBar();
+        StringDrink drink = new StringDrink("AbCd-aBcD");
+        StringRecipe recipe = getRecipe();
+        Ferengi client = new Ferengi();
+        stringBar.startHappyHour();
+        client.wants(drink, recipe, stringBar);
+        assertEquals("dCbX-DcBa", drink.getText());
+    }
+
+    @Test
+    public void ferengiStartClosed() {
+        StringBar stringBar = new StringBar();
+        StringDrink drink = new StringDrink("AbCd-aBcD");
+        StringRecipe recipe = getRecipe();
+        Ferengi client = new Ferengi();
+        stringBar.addObserver(client); // this is important!
+        client.wants(drink, recipe, stringBar);
+        assertEquals("AbCd-aBcD", drink.getText());
+        stringBar.startHappyHour();
+        assertEquals("dCbX-DcBa", drink.getText());
+    }
+    @Test
+    public void romulan() {
+        StringBar stringBar = new StringBar();
+        StringDrink drink = new StringDrink("AbCd-aBcD");
+        StringRecipe recipe = getRecipe();
+        Romulan client = new Romulan();
+        client.wants(drink, recipe, stringBar);
         assertEquals("dCbX-DcBa", drink.getText());
     }
 }
