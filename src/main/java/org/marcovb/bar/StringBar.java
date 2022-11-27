@@ -1,5 +1,8 @@
 package org.marcovb.bar;
 
+import org.marcovb.stringdrink.StringDrink;
+import org.marcovb.stringdrink.StringRecipe;
+
 public class StringBar extends Bar {
     private boolean happyHour;
 
@@ -20,5 +23,9 @@ public class StringBar extends Bar {
     public void endHappyHour() {
         happyHour = false;
         notifyObservers();
+    }
+
+    public void order(StringDrink drink, StringRecipe recipe) {
+        recipe.mix(drink);
     }
 }

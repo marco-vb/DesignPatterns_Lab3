@@ -4,33 +4,22 @@ import org.marcovb.stringdrink.StringDrink;
 import org.marcovb.stringdrink.StringRecipe;
 
 public class HumanClient implements Client {
-    private StringDrink drink;
-    private StringRecipe recipe;
+    private final OrderingStrategy strategy;
 
-    public HumanClient(StringDrink drink, StringRecipe recipe) {
-        this.drink = drink;
-        this.recipe = recipe;
-    }
-
-    public StringDrink getDrink() {
-        return drink;
-    }
-
-    public StringRecipe getRecipe() {
-        return recipe;
+    public HumanClient(OrderingStrategy strategy) {
+        this.strategy = strategy;
     }
 
     public void wants(StringDrink drink, StringRecipe recipe, StringBar bar) {
-        this.drink = drink;
-        this.recipe = recipe;
         bar.addObserver(this);
+        strategy.wants(drink, recipe, bar);
     }
 
     public void happyHourStarted(Bar bar) {
-        recipe.mix(drink);
+        strategy.happyHourStarted((StringBar) bar);
     }
 
     public void happyHourEnded(Bar bar) {
-        recipe.mix(drink);
+        strategy.happyHourEnded((StringBar) bar);
     }
 }
