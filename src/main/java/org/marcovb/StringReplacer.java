@@ -14,4 +14,10 @@ public class StringReplacer implements StringTransformer {
         String text = drink.getText().replace(oldChar, newChar);
         drink.setText(text);
     }
+
+    @Override
+    public void undo(StringDrink drink) {
+        String text = drink.getText().replace(newChar, oldChar);
+        drink.setText(text);
+    }
 }
